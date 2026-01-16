@@ -1,6 +1,6 @@
 # JavaScript-preparation
 JS interview 
-#block scoped vs function scoped
+# block scoped vs function scoped
 let a = 1;
 {
          let a = 2; 
@@ -26,7 +26,7 @@ console.log(a); // 2 1 function er vetor er var alada thats why var function sco
 //primitive data type are immutable once created that can not changes : deep copy dont pass reference jodio reassigne kora jay.
 //non primitive are mutable once created can be changed it allows shallow copy
 
-#Hoisting
+# Hoisting
 //Hoisting means variables and functions are moved to the top of their scope before execution.
 console.log(x);
 var x = 10; // undefined
